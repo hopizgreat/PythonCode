@@ -22,5 +22,5 @@ for s in scores:
     if s > highest:
         highest = s
 
-# removed + before the word highest
+# removed + before the word highest, because its unnecessary
 print("Your highest score was:" highest)
