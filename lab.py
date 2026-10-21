@@ -1,12 +1,14 @@
 # This program asks for your name and calculates your average and highest test scores
 # It contains several errors (syntax, runtime, and logic) for you to find and fix
 
-print("Welcome to the Debugging Lab!)
+# No quotation marks So I added one at the end of the print statement
+print("Welcome to the Debugging Lab!")
 
 name = input("Enter your name: ")
 print("Hello " + name + "!" + " Let's calculate your test scores.")
 
-scores = [85, 90, 78, "88", 92]
+# removed unnecessary quoatatio from the number 88
+scores = [85, 90, 78, 88, 92]
 
 total = 0
 for score in scores
@@ -20,4 +22,5 @@ for s in scores:
     if s > highest:
         highest = s
 
-print("Your highest score was:" + highest)
+# removed + before the word highest
+print("Your highest score was:" highest)
