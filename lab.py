@@ -11,7 +11,7 @@ print("Hello " + name + "!" + " Let's calculate your test scores.")
 scores = [85, 90, 78, 88, 92]
 
 total = 0
-# addes : after scores
+# added : after scores
 for score in scores:
     total = total + score
 
