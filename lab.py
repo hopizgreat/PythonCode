@@ -16,12 +16,13 @@ for score in scores:
     total = total + score
 
 average = total / len(scores)
-print("Your average score is:" average)
+# include a comma
+print("Your average score is:", average)
 
 highest = 0
 for s in scores:
     if s > highest:
         highest = s
 
-# removed + before the word highest, because its unnecessary
-print("Your highest score was:" highest)
+# removed + before the word highest, because its unnecessary and included a comma
+print("Your highest score was:", highest)
