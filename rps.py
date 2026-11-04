@@ -1,12 +1,12 @@
 import random
-player_1 = str(input("enter r, p, or s to play:"))
+player_1 = str(input("enter r (rock), p (paper), or s (scissor) to play:"))
 compu = random.randint(1, 3)
 if compu == 1:
     compu_lett = "r"
 elif compu == 2:
     compu_lett = "p"
 else:
-    comp_lett = "s"
+    compu_lett = "s"
 print("compu_lett")
 
 if player_1 == "r" and compu_lett == "s" or player_1 == "p" and compu_lett == "r" or player_1 == "s" and compu_lett == "p":
